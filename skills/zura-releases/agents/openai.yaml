@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zura Releases"
+  short_description: "Release and back up Zura projects"
+  default_prompt: "Use $zura-releases to release this project and back up its source."
