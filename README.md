@@ -6,7 +6,17 @@ Skills for the Codex app. Each one lives under `skills/`.
 
 Ship, back up and present Zura / OA Motion projects. It records where a release goes, how source development files are backed up, and how a project gets a landing page that matches zuravfx.com.
 
-## Install
+## instagram-download
+
+Download Instagram references with yt-dlp. Tries public downloads first, repairs an outdated extractor once, and uses the user's browser session only when login is needed.
+
+Paste this into Codex:
+
+> Install the instagram-download skill from https://github.com/ZURAVFX/codex-skills/tree/main/skills/instagram-download into my Codex skills folder.
+
+Then ask: “Use instagram-download to download these Instagram links into my reference folder.”
+
+## Install zura-releases
 
 Windows PowerShell:
 
