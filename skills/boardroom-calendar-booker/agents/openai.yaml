@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boardroom Calendar Booker"
+  short_description: "Coordinate rooms, calendars, Harvest and Forecast"
+  default_prompt: "Use $boardroom-calendar-booker to check my team's availability and coordinate the rooms, calendar bookings and preparation time we need."

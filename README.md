@@ -2,19 +2,19 @@
 
 Skills for the Codex app. Each one lives under `skills/`.
 
-## one-agency-operations
+## boardroom-calendar-booker
 
 Coordinate One Agency Portal boardrooms, Google Calendar meetings, Forecast leave and capacity, and Harvest time/reporting tasks. Includes first-use connection guidance, department-specific planning, room/calendar verification, and rescheduling or cancellation handling.
 
 Paste this into Codex:
 
-> Install the one-agency-operations skill from https://github.com/ZURAVFX/codex-skills/tree/main/skills/one-agency-operations into my personal Codex skills folder.
+> Install the boardroom-calendar-booker skill from https://github.com/ZURAVFX/codex-skills/tree/main/skills/boardroom-calendar-booker into my personal Codex skills folder.
 
 Then ask:
 
-> Use $one-agency-operations to plan my team's monthly 1:1s. Help me connect the services we need, check leave and rooms, and ask me before booking.
+> Use $boardroom-calendar-booker to plan my team's monthly 1:1s. Help me connect the services we need, check leave and rooms, and ask me before booking.
 
-Google Calendar is the connection used for calendar bookings; Gmail is optional for email tasks. Each department head connects their own Portal, Harvest and Forecast accounts. The skill contains no credentials or employee records. See [setup and sharing](skills/one-agency-operations/references/setup.md).
+Google Calendar is the connection used for calendar bookings; Gmail is optional for email tasks. Each department head connects their own Portal, Harvest and Forecast accounts. The skill contains no credentials or employee records. See [setup and sharing](skills/boardroom-calendar-booker/references/setup.md).
 
 ## zura-releases
 

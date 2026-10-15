@@ -1,9 +1,9 @@
 ---
-name: one-agency-operations
+name: boardroom-calendar-booker
 description: Coordinate One Agency Portal rooms, Google Calendar meetings, and Harvest or Forecast work planning. Use for availability checks, scheduling, room reservations, time and capacity reviews, and requested updates in these services, including connection setup.
 ---
 
-# One Agency operations
+# Boardroom Calendar Booker
 
 Help any department head use One Portal, Forecast, Harvest and Google Calendar together. Support standalone tasks in any of these services as well as meeting workflows. A skill supplies instructions, not access: discover the tools and permissions actually available.
 
@@ -38,7 +38,7 @@ Report the final result in plain language: what is booked or changed, what was v
 
 ## Example requests
 
-- “Use $one-agency-operations to plan monthly team 1:1s for the next quarter. Check leave and rooms, and show me the plan before booking.”
+- “Use $boardroom-calendar-booker to plan monthly team 1:1s for the next quarter. Check leave and rooms, and show me the plan before booking.”
 - “Find a boardroom for a project review next Wednesday, invite these colleagues and reserve 30 minutes afterwards for actions.”
 - “Compare next month's Forecast capacity with last month's Harvest actuals for this department.”
 - “Cancel this person's future check-ins, release the rooms and remove my related prep blocks.”

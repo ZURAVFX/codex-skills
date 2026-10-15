@@ -30,13 +30,13 @@ In the originating session, a disconnected Windows network-drive mapping disrupt
 
 Share this repository path:
 
-https://github.com/ZURAVFX/codex-skills/tree/main/skills/one-agency-operations
+https://github.com/ZURAVFX/codex-skills/tree/main/skills/boardroom-calendar-booker
 
 They can ask Codex:
 
-> Install the one-agency-operations skill from ZURAVFX/codex-skills, path skills/one-agency-operations, into my personal Codex skills folder.
+> Install the boardroom-calendar-booker skill from ZURAVFX/codex-skills, path skills/boardroom-calendar-booker, into my personal Codex skills folder.
 
-Use the available skill installer, or copy the complete folder into the host's personal skill directory (normally `~/.codex/skills/`). Respect `CODEX_HOME` when configured. Preserve customised existing files during updates. Start a new turn/session or reload skills as required by that host, then invoke `$one-agency-operations`.
+Use the available skill installer, or copy the complete folder into the host's personal skill directory (normally `~/.codex/skills/`). Respect `CODEX_HOME` when configured. Preserve customised existing files during updates. Start a new turn/session or reload skills as required by that host, then invoke `$boardroom-calendar-booker`.
 
 First-run prompt:
 
