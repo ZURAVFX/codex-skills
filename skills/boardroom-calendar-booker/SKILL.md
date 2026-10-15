@@ -20,6 +20,8 @@ Use only the references relevant to the current request. Do not demand all four 
 
 Infer the user's requested outcome and existing authorisation from the conversation. Identify any missing account, team, date range, time zone, office-day rule or write scope that materially affects the task. Ask a small, consolidated question when necessary and continue independent checks. Do not assume the originating team's membership, Monday/Wednesday/Thursday attendance, meeting lengths or monthly cadence applies to everyone.
 
+For a whole-team request, establish which department/team is theirs and who belongs in scope before booking. Reuse a previously confirmed roster; otherwise ask the user to identify the team and confirm any uncertain members. For a named-person request, work only with that person and the requested meeting. Do not ask for a whole-team roster or change the rest of their series unless needed to resolve ambiguity or explicitly requested. A reschedule includes that meeting's linked room, prep and follow-up blocks.
+
 If the user requests a plan before booking, prepare the concrete dates, guests, room choices and focus blocks before seeking approval. Once approved, complete the authorised work without repeatedly asking to continue. A later change, such as someone moving teams, should update all associated meetings, rooms and personal blocks.
 
 Prefer connected service tools. Use the available approved browser runtime for services without a suitable connector. Read its current documentation; do not assume this skill's historical selectors are still correct. Inspect live UI before acting. Never extract cookies, hidden application state or session credentials to construct an undocumented API client.
@@ -27,6 +29,7 @@ Prefer connected service tools. Use the available approved browser runtime for s
 ## Cross-service correctness
 
 - Treat Forecast leave, calendar conflicts and Portal room availability as separate checks. None alone proves physical attendance.
+- Check the user's current calendar, not just the guest's: the meeting and every prep/follow-up block must fit around existing meetings and busy time. Re-read current records rather than relying on an earlier planning run. If no slot meets the user's office-day or daily meeting-load constraints, explain the conflict and ask which constraint may change before booking an exception.
 - Confirm people by work email or account ID; abbreviated names can identify different colleagues.
 - Use local times with an IANA time zone, including daylight-saving changes. Prefer :00 or :30 starts for meetings and focus blocks unless the user specifies otherwise.
 - Recheck the specific slot before committing. Maintain a local task ledger of intended and verified changes, with event IDs and room details, to avoid duplicates after interruptions. Keep this operational data outside the shared skill and repository.
