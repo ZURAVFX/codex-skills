@@ -18,6 +18,8 @@ Use only the references relevant to the current request. Do not demand all four 
 
 ## Establish scope once
 
+For Elliot McKenzie's team, the user confirmed that office days are always Monday, Wednesday and Thursday. Apply this standing rule to their in-person scheduling without asking again; explicit leave, sickness and off-site commitments still override it. Keep this preference scoped to Elliot's team when sharing the skill with other departments.
+
 Infer the user's requested outcome and existing authorisation from the conversation. Identify any missing account, team, date range, time zone, office-day rule or write scope that materially affects the task. Ask a small, consolidated question when necessary and continue independent checks. Do not assume the originating team's membership, Monday/Wednesday/Thursday attendance, meeting lengths or monthly cadence applies to everyone.
 
 For a whole-team request, establish which department/team is theirs and who belongs in scope before booking. Reuse a previously confirmed roster; otherwise ask the user to identify the team and confirm any uncertain members. For a named-person request, work only with that person and the requested meeting. Do not ask for a whole-team roster or change the rest of their series unless needed to resolve ambiguity or explicitly requested. A reschedule includes that meeting's linked room, prep and follow-up blocks.
